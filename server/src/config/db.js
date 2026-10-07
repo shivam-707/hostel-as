@@ -348,8 +348,20 @@ function getStatus() {
   };
 }
 
+let initPromise = null;
+function ensureDbInit() {
+  if (isConnectedToMySQL) return Promise.resolve();
+  if (!initPromise) {
+    initPromise = initMySQL().catch(err => {
+      console.warn('[DB] Auto-init notice:', err.message);
+    });
+  }
+  return initPromise;
+}
+
 module.exports = {
   initMySQL,
+  ensureDbInit,
   getStatus,
   get pool() {
     return pool;
