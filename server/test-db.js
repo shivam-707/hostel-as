@@ -1,4 +1,5 @@
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '.env') });
 const mysql = require('mysql2/promise');
 
 const testPassword = process.argv[2] !== undefined ? process.argv[2] : (process.env.DB_PASSWORD || '');
