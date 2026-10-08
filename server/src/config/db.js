@@ -3,7 +3,6 @@ require('dotenv').config({ path: path.join(__dirname, '..', '..', '.env') });
 require('dotenv').config();
 const mysql = require('mysql2/promise');
 const fs = require('fs');
-const path = require('path');
 const { memoryStore, generateRoomsAndBeds, INITIAL_HOSTELS, INITIAL_WARDENS, INITIAL_STUDENTS, INITIAL_FEES, INITIAL_COMPLAINTS, INITIAL_GATE_PASSES, INITIAL_MESS_MENU } = require('./data-store');
 
 let pool = null;
