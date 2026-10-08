@@ -5,8 +5,11 @@
 
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
-const DATA_FILE = path.join(__dirname, '..', '..', 'data', 'hostel_storage.json');
+const DATA_FILE = process.env.VERCEL
+  ? path.join(os.tmpdir(), 'hostel_storage.json')
+  : path.join(__dirname, '..', '..', 'data', 'hostel_storage.json');
 
 const INITIAL_HOSTELS = [
   { id: 1, name: 'Sukhmani Boys Hostel', code: 'BH-1', type: 'boys', total_floors: 4, total_rooms: 80, total_capacity: 200, warden_id: 2, location_block: 'North Campus, Block A', contact_number: '+91 98765 43211' },
@@ -160,14 +163,22 @@ class MemoryDataStore {
       }
     }
 
-    this.ensureDataDir();
-    this.loadFromDisk();
+    try {
+      this.ensureDataDir();
+      this.loadFromDisk();
+    } catch (err) {
+      console.warn('[STORAGE] Storage initialization notice:', err.message);
+    }
   }
 
   ensureDataDir() {
-    const dir = path.dirname(DATA_FILE);
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true });
+    try {
+      const dir = path.dirname(DATA_FILE);
+      if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true });
+      }
+    } catch (err) {
+      // In read-only serverless filesystems, silently proceed with in-memory state
     }
   }
 
@@ -187,7 +198,7 @@ class MemoryDataStore {
       };
       fs.writeFileSync(DATA_FILE, JSON.stringify(state, null, 2));
     } catch (err) {
-      console.error('Failed to persist to disk:', err.message);
+      // Non-fatal: State continues in memory
     }
   }
 
@@ -209,7 +220,7 @@ class MemoryDataStore {
         }
       }
     } catch (err) {
-      console.error('Error reading saved state:', err.message);
+      // Non-fatal: Defaults to initial campus seed
     }
   }
 

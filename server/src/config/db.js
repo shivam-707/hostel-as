@@ -24,6 +24,16 @@ async function initMySQL(customConfig = null) {
     dbConfig = { ...dbConfig, ...customConfig };
   }
 
+  // If in cloud/Vercel environment without a dedicated remote DB_HOST, use instant memory engine
+  const isCloudEnv = Boolean(process.env.VERCEL);
+  const isLocalHost = !process.env.DB_HOST || dbConfig.host === '127.0.0.1' || dbConfig.host === 'localhost';
+  if (isCloudEnv && isLocalHost && !customConfig) {
+    isConnectedToMySQL = false;
+    dbErrorReason = 'Cloud deployment without remote DB_HOST. Running with Persistent Campus Data Store.';
+    console.log(`[DB] ${dbErrorReason}`);
+    return { success: false, message: dbErrorReason };
+  }
+
   try {
     // First try connecting to MySQL server to ensure DB exists
     const serverConn = await mysql.createConnection({
