@@ -9,7 +9,7 @@ An enterprise-grade, modern, scalable Hostel Administration System tailored spec
 The system is configured precisely for your campus requirements:
 
 - **5 Hostel Blocks**:
-  1. **Aravali Boys Hostel (Block A / BH-1)** - 80 Rooms, 200 Beds
+  1. **Sukhmani Boys Hostel (Block A / BH-1)** - 80 Rooms, 200 Beds
   2. **Nilgiri Boys Hostel (Block B / BH-2)** - 80 Rooms, 200 Beds
   3. **Shivalik Boys Hostel (Block C / BH-3)** - 80 Rooms, 200 Beds
   4. **Vindhya Boys Hostel (Block D / BH-4)** - 80 Rooms, 200 Beds
