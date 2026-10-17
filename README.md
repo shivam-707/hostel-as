@@ -13,7 +13,7 @@ The system is configured precisely for your campus requirements:
   2. **Sukhsagar Boys Hostel (Block B / BH-2)** - 80 Rooms, 200 Beds
   3. **Shantikunj Boys Hostel (Block C / BH-3)** - 80 Rooms, 200 Beds
   4. **Sadbhawna Boys Hostel (Block D / BH-4)** - 80 Rooms, 200 Beds
-  5. **Ganga Girls Hostel (Block G / GH-1)** - 80 Rooms, 200 Beds
+  5. **Kalpana Hostel (Block G / GH-1)** - 80 Rooms, 200 Beds
 - **Campus Capacity Totals**:
   - **Total Rooms**: 400 Rooms (80 rooms per hostel × 5 hostels)
   - **Total Bed Capacity**: 1,000 Students (800 Boys capacity + 200 Girls capacity)
