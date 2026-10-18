@@ -26,7 +26,7 @@ The system is configured precisely for your campus requirements:
 - **Administration & Wardens**:
   - **1 Chief Warden**: Dr. Rajesh Sharma (Dean Student Affairs, Overall Oversight)
   - **5 Dedicated Resident Hostel Wardens**:
-    - Aravali Boys Hostel: Prof. Vikram Malhotra
+    - Sukhmani Boys Hostel: Prof. Vikram Malhotra
     - Nilgiri Boys Hostel: Dr. Amit Verma
     - Shivalik Boys Hostel: Prof. Suresh Kulkarni
     - Vindhya Boys Hostel: Dr. Manoj Nair
