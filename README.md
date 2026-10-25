@@ -28,7 +28,7 @@ The system is configured precisely for your campus requirements:
   - **5 Dedicated Resident Hostel Wardens**:
     - Sukhmani Boys Hostel: Prof. Vikram Malhotra
     - Sukhsagar Boys Hostel: Dr. Amit Verma
-    - Shivalik Boys Hostel: Prof. Suresh Kulkarni
+    - Shantikunj Boys Hostel: Prof. Suresh Kulkarni
     - Vindhya Boys Hostel: Dr. Manoj Nair
     - Ganga Girls Hostel: Dr. Sunita Deshmukh
 
