@@ -29,7 +29,7 @@ The system is configured precisely for your campus requirements:
     - Sukhmani Boys Hostel: Prof. Vikram Malhotra
     - Sukhsagar Boys Hostel: Dr. Amit Verma
     - Shantikunj Boys Hostel: Prof. Suresh Kulkarni
-    - Vindhya Boys Hostel: Dr. Manoj Nair
+    - Sadbhawna Boys Hostel: Dr. Manoj Nair
     - Ganga Girls Hostel: Dr. Sunita Deshmukh
 
 ---
