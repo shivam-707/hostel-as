@@ -30,7 +30,7 @@ The system is configured precisely for your campus requirements:
     - Sukhsagar Boys Hostel: Dr. Amit Verma
     - Shantikunj Boys Hostel: Prof. Suresh Kulkarni
     - Sadbhawna Boys Hostel: Dr. Manoj Nair
-    - Ganga Girls Hostel: Dr. Sunita Deshmukh
+    - Kalpana Girls Hostel: Dr. Sunita Deshmukh
 
 ---
 
