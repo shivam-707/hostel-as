@@ -15,7 +15,7 @@ The system is configured precisely for your campus requirements:
   4. **Sadbhawna Boys Hostel (Block D / BH-4)** - 80 Rooms, 200 Beds
   5. **Kalpana Hostel (Block G / GH-1)** - 160 Rooms, 200 Beds
 - **Campus Capacity Totals**:
-  - **Total Rooms**: 400 Rooms (80 rooms per hostel × 5 hostels)
+  - **Total Rooms**: 480 Rooms (80 rooms per hostel × 5 hostels)
   - **Total Bed Capacity**: 1,000 Students (800 Boys capacity + 200 Girls capacity)
 - **Room Breakdown per Hostel (80 Rooms / 4 Floors)**:
   - **20 Rooms**: 2-Seater AC (Ground & 1st Floor, 10/floor) → 40 Beds
