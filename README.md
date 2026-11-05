@@ -16,7 +16,7 @@ The system is configured precisely for your campus requirements:
   5. **Kalpana Hostel (Block G / GH-1)** - 160 Rooms, 200 Beds
 - **Campus Capacity Totals**:
   - **Total Rooms**: 480 Rooms (80 rooms per hostel × 5 hostels)
-  - **Total Bed Capacity**: 1,000 Students (800 Boys capacity + 200 Girls capacity)
+  - **Total Bed Capacity**: 1,000 Students (800 Boys capacity + 400 Girls capacity)
 - **Room Breakdown per Hostel (80 Rooms / 4 Floors)**:
   - **20 Rooms**: 2-Seater AC (Ground & 1st Floor, 10/floor) → 40 Beds
   - **20 Rooms**: 2-Seater Non-AC (Ground & 1st Floor, 10/floor) → 40 Beds
