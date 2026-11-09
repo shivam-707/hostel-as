@@ -24,7 +24,7 @@ The system is configured precisely for your campus requirements:
   - **20 Rooms**: 3-Seater Non-AC (2nd & 3rd Floor, 10/floor) → 60 Beds
   - **Total per Hostel**: 80 Rooms, 200 Beds
 - **Administration & Wardens**:
-  - **1 Chief Warden**: Dr. Rajesh Sharma (Dean Student Affairs, Overall Oversight)
+  - **1 Chief Warden**: Dr. Rajesh (Dean Student Affairs, Overall Oversight)
   - **5 Dedicated Resident Hostel Wardens**:
     - Sukhmani Boys Hostel: Prof. Vikram Malhotra
     - Sukhsagar Boys Hostel: Dr. Amit Verma
