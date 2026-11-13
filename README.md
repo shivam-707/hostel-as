@@ -21,7 +21,7 @@ The system is configured precisely for your campus requirements:
   - **20 Rooms**: 2-Seater AC (Ground & 1st Floor, 10/floor) → 40 Beds
   - **20 Rooms**: 2-Seater Non-AC (Ground & 1st Floor, 10/floor) → 40 Beds
   - **20 Rooms**: 3-Seater AC (2nd & 3rd Floor, 10/floor) → 60 Beds
-  - **20 Rooms**: 3-Seater Non-AC (2nd & 3rd Floor, 10/floor) → 60 Beds
+  - **20 Rooms**: 3-Seater Non-AC (2nd & 3rd Floor, 10/floor) → 80 Beds
   - **Total per Hostel**: 80 Rooms, 200 Beds
 - **Administration & Wardens**:
   - **1 Chief Warden**: Dr. Rajesh (Dean Student Affairs, Overall Oversight)
